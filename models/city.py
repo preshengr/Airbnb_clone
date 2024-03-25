@@ -1,11 +1,16 @@
 #!/usr/bin/python3
-"""This module creates a User class"""
+"""Defines the City class."""
+
 
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Class for managing city objects"""
+    """City class for AirBnB project
+
+    state_id - empty string: it will be the State.id
+    name - empty string
+    """
 
     state_id = ""
     name = ""
