@@ -208,6 +208,8 @@ class TestConsole(unittest.TestCase):
 """Module test_amenity
 
 This Module contains a tests for Amenity Class
+
+
 """
 
 import os
