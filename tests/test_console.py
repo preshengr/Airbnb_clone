@@ -256,6 +256,8 @@ class TestConsole(unittest.TestCase):
             self.assertIn(id.strip('\n'), output.getvalue())
 
     def test_show_prints_class_name_error(self):
+        
+        
         """tests the show command class name error"""
         with patch('sys.stdout', new=StringIO()) as output:
             self.cmd.onecmd('show')
