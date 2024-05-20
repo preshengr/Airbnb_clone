@@ -204,7 +204,7 @@ class TestConsole(unittest.TestCase):
             self.assertIn('amne', output.getvalue())
             self.assertIn('rev_k', output.getvalue())
             self.assertIn('rev_v', output.getvalue())#!/usr/bin/python3
-            
+
 """Module test_amenity
 
 This Module contains a tests for Amenity Class
