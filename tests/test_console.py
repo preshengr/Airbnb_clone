@@ -204,6 +204,7 @@ class TestConsole(unittest.TestCase):
             self.assertIn('amne', output.getvalue())
             self.assertIn('rev_k', output.getvalue())
             self.assertIn('rev_v', output.getvalue())#!/usr/bin/python3
+            
 """Module test_amenity
 
 This Module contains a tests for Amenity Class
@@ -256,8 +257,6 @@ class TestConsole(unittest.TestCase):
             self.assertIn(id.strip('\n'), output.getvalue())
 
     def test_show_prints_class_name_error(self):
-        
-        
         """tests the show command class name error"""
         with patch('sys.stdout', new=StringIO()) as output:
             self.cmd.onecmd('show')
