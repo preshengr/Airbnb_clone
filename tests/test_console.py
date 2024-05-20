@@ -211,8 +211,8 @@ class TestConsole(unittest.TestCase):
 This Module contains a tests for Amenity Class
 """
 
-import os
 import unittest
+import os
 from io import StringIO
 from unittest.mock import patch
 
